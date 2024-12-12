@@ -3,7 +3,6 @@ import re
 file = "day3puzzle.txt"
 word = r'mul\(\d+,\d+\)'
 total = 0
-muls = []
 
 with open(file, 'r') as f:
 	content = f.read()
